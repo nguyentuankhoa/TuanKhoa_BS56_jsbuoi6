@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- b1  -->
+    <div class="container" style="margin-bottom: 300px;">
+        <h3>bài tập 1: tìm số nguyên dương nhỏ nhất sao cho: 1+2+...>10000</h3>
+        <div class="form-group">
+            <p>Nhập vào số</p>
+            <input class="form-control w-25 mb-2" id="nhapSo1" >
+            <button class="btn btn-success " id="btnTinhTong" onclick="timSoNguyenDuongNhoNhat()">Tính Tổng</button>
+        </div >
+        <div class="alert alert-danger w-25" id="ketQua1"></div>          
+    </div>
+
+    <!-- b2  -->
+    <div class="container" style="margin-bottom: 300px;">
+        <h3> bài tập 2:hãy giải bài tập vòng lặp: viết chương trình nhập vào 2 số x, n tính tổng: S(n) = x + x^2 + x^3 + ...x^n ( xử dụng vòng lặp và hàm) </h3>
+        <p>Nhập vào số</p>
+        <div class="form-group">          
+            <input class="form-control w-25 mb-2" id="nhapSoX" >           
+        </div>
+        <div class="form-group">          
+            <input class="form-control w-25 mb-2" id="nhapSoN" >           
+        </div>
+        <button class="btn btn-success " id="btnTinhTong2" onclick="cauHai()">Tính Kết Quả</button>
+        <div class="alert alert-danger w-25" id="ketQuaHai"></div>   
+            
+    </div>
+
+    <!-- b3  -->
+    <div class="container" style="margin-bottom: 300px;">       
+        <h3>Bài tập 3: Nhập vào n. Tính giai thừa 1*2*...n</h3>
+        <div class="form-group">
+            <p>Nhập vào số n</p>
+            <input class="form-control w-25 mb-2" id="nhapSo3" type="text">
+            <button class="btn btn-success " id="btnTinhGiaiThua">Tính giai thừa</button>
+        </div>
+        <div class="alert alert-danger w-25" id="ketQua3">
+            120
+        </div>
+    </div>
+
+    <!-- b4  -->
+    <div class="container" style="margin-bottom: 300px;">       
+        <h3> bài tập 4 :Viết chương trình khi click vào button tạo ra 10 thẻ div. div chẵn bg đỏ và lẻ bg xanh</h3>
+        <div class="form-group">
+            <button class="btn btn-success " id="btnCau4" onclick="bai4()">Kết quả </button>
+        </div>
+        <div class="alert alert-danger" id="ketQua4">
+            <div class="div">div 1 chẵn</div>
+            <div class="div">div 2 lẻ </div>
+            <div class="div">div 3 chẵn</div>
+            <div class="div">div 4 lẻ</div>
+            <div class="div">div 5 chẵn</div>
+            <div class="div">div 6 lẻ</div>
+            <div class="div">div 7 chẵn</div>
+            <div class="div">div 8 lẻ</div>
+            <div class="div">div 9 chẵn</div>
+            <div class="div">div 10 le</div>        
+        </div>
+    </div>
+
+
+
+
+        
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
